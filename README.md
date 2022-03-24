@@ -15,7 +15,15 @@ backbone부분에는 전이 학습 모델을 가져와서 이미지를 축소 �
 
 unet에서 res path부분에도 convolution 연산을 수행 시키는 모델이 unet++이다 결과적이로 x0.1~x0.4의 평균 값 혹은 x0.4의 값을 결과 값으로 사용한다.
 
+### result
 
+![첫 결과](https://user-images.githubusercontent.com/94822037/159857508-95429dee-2ff8-441a-aa96-f5a8ee1f802a.PNG)
+
+왼쪽 부터 input image , label image , output image이다.
+
+현재는 DACON에서 개최하는 LG의 data를 가지고 빛번짐 성능을 test 해보았다.
+
+이제 실제 목적인 블랙 박스상 가로등 , 달빛등의 빛번짐을 제거하려고 한다.
 
 
 
