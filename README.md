@@ -1,1 +1,1 @@
-# seventeenagain
+캡스톤디자인 6조 
