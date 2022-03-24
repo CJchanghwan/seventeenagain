@@ -5,7 +5,7 @@ autoencoder 모델은 입력 데이터(input data)를 압축시켜 압축시킨 
 
 이 모델은 자기 자신을 결과로 나오게 만들지만 우리는 모델 마지막에 sigmoid를 추가 즉 autoencoding을 통해 이미지의 특징을 추출하고 output이 나오도록 한다.
 
-###   
+###   unet++
 
 ![unet++](https://user-images.githubusercontent.com/94822037/159856694-1c1e489c-9841-4ca3-abd0-4687f8dca587.PNG)
 
