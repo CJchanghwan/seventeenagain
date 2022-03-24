@@ -5,4 +5,16 @@ autoencoder 모델은 입력 데이터(input data)를 압축시켜 압축시킨 
 
 이 모델은 자기 자신을 결과로 나오게 만들지만 우리는 모델 마지막에 sigmoid를 추가 즉 autoencoding을 통해 이미지의 특징을 추출하고 output이 나오도록 한다.
 
+###UNET++
+![unet++](https://user-images.githubusercontent.com/94822037/159856694-1c1e489c-9841-4ca3-abd0-4687f8dca587.PNG)
+
+최종 사용하는 모델의 모형은 다음과 같다.
+backbone부분에는 전이 학습 모델을 가져와서 이미지를 축소 시킨다(x0.0~x4.0) 이 후 다시 이미지를 확장 시킨다(x4.0~x0.4)
+
+unet에서 res path부분에도 convolution 연산을 수행 시키는 모델이 unet++이다 결과적이로 x0.1~x0.4의 평균 값 혹은 x0.4의 값을 결과 값으로 사용한다.
+
+
+
+
+
 
