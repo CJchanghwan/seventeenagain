@@ -15,6 +15,12 @@ backbone부분에는 전이 학습 모델을 가져와서 이미지를 축소 �
 
 unet에서 res path부분에도 convolution 연산을 수행 시키는 모델이 unet++이다 결과적이로 x0.1~x0.4의 평균 값 혹은 x0.4의 값을 결과 값으로 사용한다.
 
+### data
+
+https://dacon.io/competitions/official/235746/data
+
+사용한 데이터를 
+
 ### result
 
 ![첫 결과](https://user-images.githubusercontent.com/94822037/159857508-95429dee-2ff8-441a-aa96-f5a8ee1f802a.PNG)
