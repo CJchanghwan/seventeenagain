@@ -75,6 +75,8 @@ https://dacon.io/competitions/official/235746/data
 
 ### 밤 <-> 낮 전환 인공지능
 
+### Data : https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k
+
 ![밤낮 모델](https://user-images.githubusercontent.com/94822037/160829261-90f2f89f-985e-4ea6-b9cd-4421d19d456d.jpg)
 
 GAB 은 밤 사진(RealA)을 낮 사진(FakeB)으로 만드는 모델
