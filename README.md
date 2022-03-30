@@ -75,6 +75,20 @@ https://dacon.io/competitions/official/235746/data
 
 ### 밤 <-> 낮 전환 인공지능
 
+![밤낮 모델](https://user-images.githubusercontent.com/94822037/160829261-90f2f89f-985e-4ea6-b9cd-4421d19d456d.jpg)
+
+GAB 은 밤 사진(RealA)을 낮 사진(FakeB)으로 만드는 모델
+
+GBA 은 낮 사진(RealB)을 밤 사진(FakeA)으로 만드는 모델
+
+DA 는 밤 사진(FakeA)와 밤 사진(RealA) 간의 차이를 줄이는 모델
+
+DB 는 낮 사진(FakeB)와 낮 사진(RealA) 간의 차이를 줄이는 모델
+
+
+
+
+
 
 
 
