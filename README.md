@@ -98,6 +98,25 @@ DB 는 낮 사진(FakeB)와 낮 사진(RealA) 간의 차이를 줄이는 모델
 
 학습을 하면 밤 -> 낮 , 낮 -> 밤 에 대한 색인 정보가 GAN 되는 방식이다
 
+### 모델이 동작하는 지만 test 한 단계
+
+
+위에서 부터 (real 낮 사진 , 낮->밤사진 , real 밤 사진 , 밤 -> 낮사진)
+
+학습 1번 끝났을 때 모습(총 300번 동일 계획)
+
+![epoch 1 result](https://user-images.githubusercontent.com/94822037/160832048-e9895925-b12c-4d3e-b50b-65f9cbf7bfc4.jpg)
+
+학습 5번 끝났을 때 모습(총 300번 동일 계획)
+
+![epoch 4 result](https://user-images.githubusercontent.com/94822037/160832055-5f6401fc-1fe8-4530-9baa-b7bf182fdb2b.jpg)
+
+### result
+
+우선 학습을 많이 돌려 보는게 제일 중요할 꺼 같고 한 학습당 1시간 정도 소요 됨
+
+300시간 소요 
+
 
 
 
