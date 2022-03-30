@@ -85,6 +85,16 @@ DA 는 밤 사진(FakeA)와 밤 사진(RealA) 간의 차이를 줄이는 모델
 
 DB 는 낮 사진(FakeB)와 낮 사진(RealA) 간의 차이를 줄이는 모델
 
+### generator
+
+
+![GAB](https://user-images.githubusercontent.com/94822037/160830344-3658d378-2664-4d47-b68c-2f5d9ab28e59.jpg)
+
+다음은 GAB을 통해 Real image를 넣었을 때 나오는 모습 
+
+학습을 시키지 않았 기 때문에 색 정보는 잃고 랜덤한 색으로 형태만 남아있는 모습
+
+학습을 하면 밤 -> 낮 , 낮 -> 밤 에 대한 색인 정보가 GAN 되는 방식이다
 
 
 
