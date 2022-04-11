@@ -225,8 +225,7 @@ EX) 예를 들어 원하는 값이 70 이고 원래 이미지의 값이 100 이�
 
 그래프로 표현해 보면 다음과 같음
 
-
-![relu 예시 모델](https://user-images.githubusercontent.com/94822037/162743491-e9d0a4a5-3638-4810-bdfd-472f3d4e6fd3.PNG)
+![relu](https://user-images.githubusercontent.com/94822037/162743448-3ef6f519-91fb-4ebc-8ccc-57d43ea331cf.PNG)
 
 
 ### BATCHNORM
