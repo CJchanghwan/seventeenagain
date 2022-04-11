@@ -167,6 +167,10 @@ DB 는 낮 사진(FakeB)와 낮 사진(RealA) 간의 차이를 줄이는 모델
 ### 모델의 과정 :
 cnn - relu - cnn - batchnorm - relu - cnn - relu - fc - 다시 확장하면서 이미지 복구
 
+![encoder](https://user-images.githubusercontent.com/94822037/162760597-677a7e18-a340-4ae7-ad53-c43dc60c703f.jpg)
+
+![decoder](https://user-images.githubusercontent.com/94822037/162760607-64de7f34-1de1-4504-97eb-4797071228bc.jpg)
+
 
 과정을 하나하나 깊게 탐색하기 전에 각 과정에 사용 되는 함수에 대한 이유를 설명한다.
 
