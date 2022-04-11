@@ -253,6 +253,8 @@ BATCHNORM2D - CNN을 적용시 각 FEATURE 맵은 다른 가중치를 가지고 
 쉽게 데이터가 선형으로 가정하고
 빨간 선이라는 데이터와 파랑선이라는 데이터에 대한 결과 값이 있고 이에 대한 batchnorm을 사용하게 되면 점선의 형태가 되는 것임
 
+![정규화](https://user-images.githubusercontent.com/94822037/162770210-aa27c3b8-388a-4c51-9830-ba00d698399f.jpg)
+
 
 ### 요약
 
