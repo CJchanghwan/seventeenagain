@@ -1,6 +1,10 @@
+###
+
 ![계획](https://user-images.githubusercontent.com/94822037/165354193-7809b526-9f06-4eeb-a4f7-e8ad8bcd3ef8.PNG)
 
+###구성도
 
+![캡처](https://user-images.githubusercontent.com/94822037/165354278-4dc06958-57ba-4aa8-8965-07da4edf3995.PNG)
 
 ### model
 ![이미지](https://user-images.githubusercontent.com/94822037/159855713-7a366f31-bd8e-481b-bc76-d5196295a788.png)
