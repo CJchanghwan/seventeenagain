@@ -39,6 +39,10 @@ https://dacon.io/competitions/official/235746/data
 
 이제 실제 목적인 블랙 박스상 가로등 , 달빛등의 빛번짐을 제거하려고 한다.
 
+### 중간 
+
+![결과](https://user-images.githubusercontent.com/94822037/165354581-48587fae-d7a7-4e7b-af51-7dbf0464e7cb.PNG)
+
 ### 밤 <-> 낮 전환 인공지능
 
 ### Data : https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k
