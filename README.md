@@ -1,6 +1,4 @@
-
-![계획](https://user-images.githubusercontent.com/94822037/165354054-cca0678b-64dc-4082-8151-9af2e4063a5a.PNG)
-
+![계획](https://user-images.githubusercontent.com/94822037/165354193-7809b526-9f06-4eeb-a4f7-e8ad8bcd3ef8.PNG)
 
 
 
