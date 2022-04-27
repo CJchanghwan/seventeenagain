@@ -43,6 +43,10 @@ https://dacon.io/competitions/official/235746/data
 
 ![결과](https://user-images.githubusercontent.com/94822037/165354581-48587fae-d7a7-4e7b-af51-7dbf0464e7cb.PNG)
 
+### efficientnet 학습 300번 결과
+
+![test_20010](https://user-images.githubusercontent.com/94822037/165507152-24e9913c-c432-4b1d-9a5a-553e6d32ec62.png)
+
 ### 밤 <-> 낮 전환 인공지능
 
 ### Data : https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k
