@@ -47,50 +47,6 @@ https://dacon.io/competitions/official/235746/data
 
 ![test_20010](https://user-images.githubusercontent.com/94822037/165507152-24e9913c-c432-4b1d-9a5a-553e6d32ec62.png)
 
-### 밤 <-> 낮 전환 인공지능
-
-### Data : https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k
-
-![밤낮 모델](https://user-images.githubusercontent.com/94822037/160829261-90f2f89f-985e-4ea6-b9cd-4421d19d456d.jpg)
-
-GAB 은 밤 사진(RealA)을 낮 사진(FakeB)으로 만드는 모델
-
-GBA 은 낮 사진(RealB)을 밤 사진(FakeA)으로 만드는 모델
-
-DA 는 밤 사진(FakeA)와 밤 사진(RealA) 간의 차이를 줄이는 모델
-
-DB 는 낮 사진(FakeB)와 낮 사진(RealA) 간의 차이를 줄이는 모델
-
-### generator
-
-
-![GAB](https://user-images.githubusercontent.com/94822037/160830344-3658d378-2664-4d47-b68c-2f5d9ab28e59.jpg)
-
-다음은 GAB을 통해 Real image를 넣었을 때 나오는 모습 
-
-학습을 시키지 않았 기 때문에 색 정보는 잃고 랜덤한 색으로 형태만 남아있는 모습
-
-학습을 하면 밤 -> 낮 , 낮 -> 밤 에 대한 색인 정보가 GAN 되는 방식이다
-
-### 모델이 동작하는 지만 test 한 단계
-
-
-위에서 부터 (real 낮 사진 , 낮->밤사진 , real 밤 사진 , 밤 -> 낮사진)
-
-학습 1번 끝났을 때 모습(총 300번 동일 계획)
-
-![epoch 1 result](https://user-images.githubusercontent.com/94822037/160833047-8e91dadb-59a0-47fb-90a4-99c372f0b82c.jpg)
-
-학습 5번 끝났을 때 모습(총 300번 동일 계획)
-
-![epoch 4 result](https://user-images.githubusercontent.com/94822037/160832055-5f6401fc-1fe8-4530-9baa-b7bf182fdb2b.jpg)
-
-### result
-
-우선 학습을 많이 돌려 보는게 제일 중요할 꺼 같고 한 학습당 1시간 정도 소요 됨
-
-300시간 소요 예상 
-
 
 ### 빛번짐 자세한 설명 
 
@@ -249,5 +205,50 @@ BATCHNORM2D - CNN을 적용시 각 FEATURE 맵은 다른 가중치를 가지고 
 fc는 fully connect layer의 약자로 마지막에 적용된 이미지의 모양을 일차원으로 변형 시키고 마지막 가중치를 적용시켜줌 우리는 이미지의 특징을 추출 할 뿐만 하니라 다시 원래의 이미지의 형태로 되돌려야 하기 때문에 1차원으로 변형시킨후 이를 최종 가중치를 적용 시켜 특징이 적용된 결과 값을 다시 원래 이미지로 복구하는 과정을 거치게 됨
 
 나머지는 이 이미지를 다시 대칭에 맞게 복구 하는 과정
+
+### 밤 <-> 낮 전환 인공지능
+
+### Data : https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k
+
+![밤낮 모델](https://user-images.githubusercontent.com/94822037/160829261-90f2f89f-985e-4ea6-b9cd-4421d19d456d.jpg)
+
+GAB 은 밤 사진(RealA)을 낮 사진(FakeB)으로 만드는 모델
+
+GBA 은 낮 사진(RealB)을 밤 사진(FakeA)으로 만드는 모델
+
+DA 는 밤 사진(FakeA)와 밤 사진(RealA) 간의 차이를 줄이는 모델
+
+DB 는 낮 사진(FakeB)와 낮 사진(RealA) 간의 차이를 줄이는 모델
+
+### generator
+
+
+![GAB](https://user-images.githubusercontent.com/94822037/160830344-3658d378-2664-4d47-b68c-2f5d9ab28e59.jpg)
+
+다음은 GAB을 통해 Real image를 넣었을 때 나오는 모습 
+
+학습을 시키지 않았 기 때문에 색 정보는 잃고 랜덤한 색으로 형태만 남아있는 모습
+
+학습을 하면 밤 -> 낮 , 낮 -> 밤 에 대한 색인 정보가 GAN 되는 방식이다
+
+### 모델이 동작하는 지만 test 한 단계
+
+
+위에서 부터 (real 낮 사진 , 낮->밤사진 , real 밤 사진 , 밤 -> 낮사진)
+
+학습 1번 끝났을 때 모습(총 300번 동일 계획)
+
+![epoch 1 result](https://user-images.githubusercontent.com/94822037/160833047-8e91dadb-59a0-47fb-90a4-99c372f0b82c.jpg)
+
+학습 5번 끝났을 때 모습(총 300번 동일 계획)
+
+![epoch 4 result](https://user-images.githubusercontent.com/94822037/160832055-5f6401fc-1fe8-4530-9baa-b7bf182fdb2b.jpg)
+
+### result
+
+우선 학습을 많이 돌려 보는게 제일 중요할 꺼 같고 한 학습당 1시간 정도 소요 됨
+
+300시간 소요 예상 
+
 
 
