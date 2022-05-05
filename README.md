@@ -259,5 +259,9 @@ discrimior는 위 설명에서 위조범을 이야기한다
 
 300시간 소요 예상 
 
+### cycle gan 참고 코드(horse to zebra)
+
+https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
+
 
 
