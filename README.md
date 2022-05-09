@@ -1,3 +1,19 @@
+# 빛번짐 코드 사용 법
+
+https://dacon.io/competitions/official/235746/data 에서 데이터를 다운로드
+
+github에 업로드 되어 있는 코드를 window or ubuntu 등의 환경에서
+
+colab 이나 jupyter notebook 같은 ipynb 파일을 사용 할 수 있는 개발 환경 프로그램을 사용
+
+colab에 각 명시 되어 있는 경로가 저장되어 있는 부분을 자신의 컴퓨터 경로에 맞게 설정
+
+이 후 학습 후 결과를 확인하고 싶다면 github에 업로드 되어 있는 efficientnet.pt를 다운로드 후 모델 선언 부에
+
+model.load_state_dict(torch.load(PATH)) PATH에는 efficientnet.pt의 경로를 입력 
+
+이 후 바로 test를 싱핼 하면 결과 확인 
+
 ### 계획
 
 ![계획](https://user-images.githubusercontent.com/94822037/165354193-7809b526-9f06-4eeb-a4f7-e8ad8bcd3ef8.PNG)
