@@ -280,4 +280,17 @@ discrimior는 위 설명에서 위조범을 이야기한다
 https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
 
 
+### 현재 밤낮 전환 상태
+
+예상은 했지만 너무 어려운 부분 같은 경우 아예 바꾸지 못하거나 이상한 사진으로 대체해버리는 경우가 발생중
+
+### 좋은 데이터로 평가
+
+![예시](https://user-images.githubusercontent.com/94822037/168463825-98dcd298-a0db-40e1-92d6-fd277fda5204.png)
+
+### 너무 어두워서 안좋은 데이터 평가
+
+![안좋은 예시](https://user-images.githubusercontent.com/94822037/168463829-9b92de1a-ac55-40eb-ba84-591c0d5c9cf2.jpg)
+
+
 
