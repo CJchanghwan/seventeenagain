@@ -292,5 +292,11 @@ https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
 
 ![안좋은 예시](https://user-images.githubusercontent.com/94822037/168463829-9b92de1a-ac55-40eb-ba84-591c0d5c9cf2.jpg)
 
+### 협업 진행 상황
 
+모댈의 구조를 바꾸면서 진행 중
+
+밤낮 전환 인공지능 또한 이미지를 축하고 확장하는 과정을 거치는데 
+
+1~4까지 각 축소의 횟수에 따라 달라지는 결과를 
 
