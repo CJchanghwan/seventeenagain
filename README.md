@@ -317,3 +317,9 @@ https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
 ![4번](https://user-images.githubusercontent.com/94822037/169289989-c774b257-d79b-418e-876f-0068aa215ab7.png)
 
 
+### 축소에 따른 결과
+
+시각적으로 봤을 때 2번 축소 후 확장이 가장 잘 바꾸는 것을 확인
+
+이후 모델 구조중 축소 -> 특징 전이 -> 확장 에서 특징 전이의 역할을 하는 resdual block의 층 수를 6,9,12,15로 맡아서 결과를 확인 할 
+
