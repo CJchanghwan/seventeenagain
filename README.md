@@ -298,5 +298,22 @@ https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
 
 밤낮 전환 인공지능 또한 이미지를 축하고 확장하는 과정을 거치는데 
 
-1~4까지 각 축소의 횟수에 따라 달라지는 결과를 
+1~4까지 각 축소의 횟수에 따라 달라지는 결과를 비교
+
+### 1번 축소 후 확장
+
+![1번](https://user-images.githubusercontent.com/94822037/169289922-ecc7a5e5-bb21-4468-be79-cd372700c646.png)
+
+### 2번 축소 후 확장
+
+<img width="226" alt="2번" src="https://user-images.githubusercontent.com/94822037/169289942-15ea5f8f-d7ac-460a-9ec1-9726e4c22a93.png">
+
+### 3번 축소 후 확장
+
+![3번](https://user-images.githubusercontent.com/94822037/169289975-57b809e6-795a-40fc-bd34-fd94839f90db.png)
+
+### 4번 축소 후 확장
+
+![4번](https://user-images.githubusercontent.com/94822037/169289989-c774b257-d79b-418e-876f-0068aa215ab7.png)
+
 
