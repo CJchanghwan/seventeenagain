@@ -1,3 +1,8 @@
+### 전체 구성도
+
+![구성도](https://user-images.githubusercontent.com/94822037/169695603-f6e8a0fb-3a3a-43e5-b9d4-258d64cb2836.PNG)
+
+
 # 빛번짐 코드 사용 법
 
 https://dacon.io/competitions/official/235746/data 에서 데이터를 다운로드
