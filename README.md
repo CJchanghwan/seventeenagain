@@ -328,3 +328,10 @@ https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
 
 이후 모델 구조중 축소 -> 특징 전이 -> 확장 에서 특징 전이의 역할을 하는 resdual block의 층 수를 6,9,12,15로 맡아서 결과를 확인 할 
 
+![특징 전이](https://user-images.githubusercontent.com/94822037/172087073-0a69057f-e4d8-4f55-a0ec-5c0e3b75167c.PNG)
+
+9번 축소 및 확장 했을 때 결과를 채텍
+
+### 빛번짐 , 밤낮 전환 인공지능을 모두 사용 했을 때
+
+![최종 결과](https://user-images.githubusercontent.com/94822037/172087095-7c6b40f8-8990-42c1-95f9-b2e40af59bca.PNG)
