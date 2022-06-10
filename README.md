@@ -305,28 +305,16 @@ https://www.kaggle.com/code/balraj98/cyclegan-translating-horses-zebras-pytorch
 
 1~4까지 각 축소의 횟수에 따라 달라지는 결과를 비교
 
-### 1번 축소 후 확장
-
-![1번](https://user-images.githubusercontent.com/94822037/169289922-ecc7a5e5-bb21-4468-be79-cd372700c646.png)
-
-### 2번 축소 후 확장
-
-<img width="226" alt="2번" src="https://user-images.githubusercontent.com/94822037/169289942-15ea5f8f-d7ac-460a-9ec1-9726e4c22a93.png">
-
-### 3번 축소 후 확장
-
-![3번](https://user-images.githubusercontent.com/94822037/169289975-57b809e6-795a-40fc-bd34-fd94839f90db.png)
-
-### 4번 축소 후 확장
-
-![4번](https://user-images.githubusercontent.com/94822037/169289989-c774b257-d79b-418e-876f-0068aa215ab7.png)
-
 
 ### 축소에 따른 결과
+
+![축소 확장](https://user-images.githubusercontent.com/94822037/173001014-31e2316d-e840-449c-bf7c-c0da12537f6e.jpg)
 
 시각적으로 봤을 때 2번 축소 후 확장이 가장 잘 바꾸는 것을 확인
 
 이후 모델 구조중 축소 -> 특징 전이 -> 확장 에서 특징 전이의 역할을 하는 resdual block의 층 수를 6,9,12,15로 맡아서 결과를 확인 할 
+
+### 특징 전이 횟우에 따른 결과
 
 ![특징 전이](https://user-images.githubusercontent.com/94822037/172087073-0a69057f-e4d8-4f55-a0ec-5c0e3b75167c.PNG)
 
