@@ -2,6 +2,7 @@
 
 ![구성도](https://user-images.githubusercontent.com/94822037/169695603-f6e8a0fb-3a3a-43e5-b9d4-258d64cb2836.PNG)
 
+![최종 구성도](https://user-images.githubusercontent.com/94822037/173185656-96e4abab-4a24-4ef2-86b6-1f7c98d8a91d.PNG)
 
 # 빛번짐 코드 사용 법
 
